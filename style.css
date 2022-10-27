@@ -6,8 +6,8 @@
 }
 
 .product-img {
-  height: 350px;
-  width: 350px;
+  height: 401px;
+  width: 402px;
   background-color: #f0f0f0;
   border-radius: 5px;
   position: relative;
@@ -16,10 +16,10 @@
 
 .product-img img {
   height: auto;
-  width: 200px;
+  width: 100%;
   position: absolute;
-  top: 25px;
-  left: 90px;
+  /* top: 25px;
+  left: 90px; */
 }
 
 .another-img {
@@ -76,12 +76,7 @@ button:hover {
 }
 
 .magnifier{
-  height: 300px !important;
-  width: 300px !important;
+  height: 500px !important;
+  width: 420px !important;
 }
-
-.cursorshade{
-  height: 20px !important;
-  width: 20px !important;
-} 
 /*# sourceMappingURL=style.css.map */
