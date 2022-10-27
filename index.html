@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.scss">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Product Page by JavaScript</title>
+
+    <link type="text/css" rel="stylesheet" href="magiczoomplus.css"/>
+    <script type="text/javascript" src="magiczoomplus.js"></script>
 </head>
 <body>
     
-    <div class="container">
+    <a href="Product.jpg" class="MagicZoom" id="jeans"><img src="Product.jpg" /></a>
+
+    <!-- <a href="jeans1-big.jpg" class="MagicZoom" id="jeans"><img src="jeans1-small.jpg" /></a> -->
+
+    <a data-zoom-id="jeans" href="Product.jpg" data-image="Product.jpg" data-options="cssClass: mz-show-arrows;"><img src="Product.jpg" /></a>
+    <a data-zoom-id="jeans" href="Product3.jpg" data-image="Product3.jpg"><img src="Product3.jpg" /></a>
+    <a data-zoom-id="jeans" href="Product3.jpg" data-image="product13.webp"><img src="product13.webp" /></a>
+
+    <!-- <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <div class="product-img mt-5 ml-5">
@@ -39,11 +49,12 @@
                 <button>Add To Cart</button>
             </div>
         </div>
-    </div>
+    </div> -->
+
 
 
     <script src="main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.0.min.js" 
+    <!-- <script src="https://code.jquery.com/jquery-3.4.0.min.js" 
         integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6" 
         crossorigin="anonymous">
     </script>
@@ -58,6 +69,6 @@
             });
         })
 
-    </script>
+    </script> -->
 </body>
 </html>

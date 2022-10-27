@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -18,8 +18,6 @@
   height: auto;
   width: 100%;
   position: absolute;
-  /* top: 25px;
-  left: 90px; */
 }
 
 .another-img {
@@ -78,5 +76,5 @@ button:hover {
 .magnifier{
   height: 500px !important;
   width: 420px !important;
-}
+} */
 /*# sourceMappingURL=style.css.map */
